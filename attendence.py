@@ -6,8 +6,8 @@ from datetime import datetime
 import pandas as pd
 
 # ========================== CONFIGURATION ==========================
-BASE_PATH = r'C:\Users\rusha\OneDrive\Desktop\TSP\ImagesAttendance'
-ATTENDANCE_FILE = r'C:\Users\rusha\OneDrive\Desktop\TSP\Attendance.csv'
+BASE_PATH = r'YOUR FILE PATH'
+ATTENDANCE_FILE = r'YOUR FILE PATH TO STORE ATTENDANCE DAY WISE '
 ATTENDANCE_GAP_SECONDS = 10
 
 os.makedirs(BASE_PATH, exist_ok=True)
